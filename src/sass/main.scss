@@ -1,7 +1,12 @@
-/*
- * Главный файл стилей.
- * Все паршалы подключаются сюда.
- */
+@import './base/reset';
+@import './base/container';
+@import './base/vars';
+@import './components/drop';
+@import './components/search';
+@import './components/nav-link';
+@import './components/filter-button';
+@import './components/modal';
+@import './components/form-modal';
 
-// Стили для файла с примером HTML-фрагмента
-@import './example';
+@import './layout/header';
+@import './layout/inform';

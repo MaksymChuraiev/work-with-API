@@ -1,0 +1,19 @@
+{{#each this}}
+
+  <li class='article-item'>
+    <h2 class='article-title'>{{name}}</h2>
+    <p class='article-category'>{{category}}</p>
+    <p class='article-deskription'>{{description}}</p>
+    <a class='article-link' href=''>{{url}}</a>
+    <div class='article-section'>
+      <div class='article-language__section'>
+        <p class='article-language'>Language: {{language}}</p>
+        <p class='article-language'>Country: {{country}}</p>
+      </div>
+      <button class='article-button'>
+        <span class='article-button__text'>Сохранить</span>
+      </button>
+    </div>
+  </li>
+
+{{/each}}

@@ -1,0 +1,61 @@
+.drop-container {
+  display: flex;
+  align-items: center;
+  min-height: 100hv;
+}
+
+.drop {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  box-shadow: inset 10px 10px 10px var(--dark-shadow-color),
+    15px 25px 10px var(--dark-shadow-color), 15px 20px 20px rgba(0, 0, 0, 0.05),
+    inset -10px -10px 15px var(--light-shadov-color);
+  border-radius: 50%;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 25px;
+    left: 15px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: var(--main-components-color);
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 15px;
+    left: 30px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--main-components-color);
+  }
+}
+
+.drop-word {
+  position: absolute;
+  top: 13px;
+  left: 30px;
+  font-family: Love Light;
+  font-size: 25px;
+}
+
+.drop-icon {
+  position: absolute;
+  top: 35px;
+  left: 45px;
+  font-family: Love Light;
+  font-size: 25px;
+}
+
+.drop-word__second {
+  position: absolute;
+  top: 55px;
+  left: 20px;
+  font-family: Love Light;
+  font-size: 25px;
+}

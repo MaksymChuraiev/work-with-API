@@ -1,0 +1,27 @@
+.header {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-list {
+  display: flex;
+  margin-left: auto;
+  flex-wrap: wrap;
+}
+
+.header-list__item:not(:first-child) {
+  margin-left: 50px;
+}
+// overflow:hidden;
+.header-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
